@@ -1,0 +1,22 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: darkblue;
+}
+
+.column:first-child {
+  display: flex;
+}
+.column label {
+  padding-top: 5px;
+}
+.column select {
+  width: 70% !important;
+  margin-left: 20px;
+}
